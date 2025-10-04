@@ -1,16 +1,13 @@
 'use client'
 
-import { ChakraProvider, defaultSystem, createSystem, defineConfig, defaultConfig } from '@chakra-ui/react'
+import { ChakraProvider, defaultSystem, createSystem, defineConfig, defaultConfig, Theme } from '@chakra-ui/react'
 import { ColorModeProvider } from './color-mode'
 import '@fontsource/inter'; 
 import '@fontsource/inter/700.css'; 
 import '@fontsource/inter/900.css'; 
-
 const config = defineConfig({
   globalCss: {
     "html": {
-      color: 'black',
-      background: 'white',
       fontFamily: 'Inter'
     }
   }
@@ -45,7 +42,7 @@ const system = createSystem(defaultConfig, config)
 export function Provider(props) {
   return (
     <ChakraProvider value={system}>
-      <ColorModeProvider {...props} />
+      <ColorModeProvider {...props} forcedTheme="light"/>
     </ChakraProvider>
   )
 }

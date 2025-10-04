@@ -1,9 +1,11 @@
 .bodyContainer{
     display: grid;
     grid-gap: 9px;
+    grid-row-gap: 50px;
     grid-template-columns: repeat(2, 50%);
+    grid-template-rows: (2, 50%);
     justify-content: space-between;
-    align-content: center;
+    align-items: start;
 }
 
 .leftPanel {
@@ -13,10 +15,14 @@
     justify-content: center;
     grid-column-start: 1;
     grid-column-end: 2;
-    padding-left: 3%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-left: 12%;
+    height: 100%;
+    width: 100%;
 }
 .leftPanel > h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
 }
 .leftPanel > p {
@@ -26,12 +32,36 @@
 .leftPanel > button {
     width: 10%;
 }
+.Highlight {
+    color: rgb(253, 227, 89);
+}
 
 .rightPanel {
     grid-column-start: 2;
     grid-column-end: 3;
-    justify-self: center;
-    height: 500px;
-    width: 500px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+    height: 100%;
+    width: 40vw;
+    align-content: center;
+    justify-content: end;
+    padding-left: 8%;
+}
+.rightPanel > img {
+    height: 450px;
+    width: 450px;
     border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.FeatureCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-direction: row;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100vw;
 }

@@ -10,8 +10,8 @@ function Header(){
                 <h1>Who's Got it Cheapest?</h1>
             </div>
             <div>
-                <Button size="md" variant="solid" colorPalette="white" className={styles.signUpButton}>Login</Button> 
-                <Button size="md" variant="solid" colorPalette="yellow" className={styles.signUpButton}>Sign up</Button>
+                <Button size="md" variant="solid" colorPalette="white" className={styles.loginAndSignUpButtons}>Login</Button> 
+                <Button size="md" variant="solid" colorPalette="yellow" className={styles.loginAndSignUpButtons}>Sign up</Button>
             </div>
         </div>
     )

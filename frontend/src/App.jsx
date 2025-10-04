@@ -4,7 +4,6 @@ import HomePage from "./components/pages/homepage/HomePage";
 function App(){
     return (
         <div>
-            <Header/>
             <HomePage/>
         </div>
     )

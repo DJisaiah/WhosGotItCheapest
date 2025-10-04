@@ -1,0 +1,11 @@
+.searchBar {
+    width: 60vw;
+}
+
+.barAndButton {
+    display:flex;
+    border: 2px solid black;
+}
+.barAndButton > Button {
+    margin-left: -30px;
+}
