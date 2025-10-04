@@ -1,0 +1,37 @@
+.bodyContainer{
+    display: grid;
+    grid-gap: 9px;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    align-content: center;
+}
+
+.leftPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 3%;
+}
+.leftPanel > h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+.leftPanel > p {
+    font-size: 15px;
+    color: grey;
+}
+.leftPanel > button {
+    width: 10%;
+}
+
+.rightPanel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
