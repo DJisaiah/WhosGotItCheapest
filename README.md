@@ -25,7 +25,7 @@ Who's Got It Cheapest is a web platform that:
 git clone https://github.com/DJisaiah/WhosGotItCheapest.git
 
 # Navigate to project directory
-cd WhosGotItCheapest
+cd frontend
 
 # Install dependencies
 npm install
