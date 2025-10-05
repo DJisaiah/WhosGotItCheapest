@@ -8,7 +8,7 @@ South African students and families are struggling with rising food costs, needl
 
 ## 💡 The Solution
 
-WhosGotItCheapest is a web platform that: 
+Who's Got It Cheapest is a web platform that: 
 - Compares grocery prices across major South African retailers, helping students make informed purchasing decisions and stretch their budgets further.
 - Helps students 
 
@@ -17,23 +17,6 @@ WhosGotItCheapest is a web platform that:
 - Component-based design for scalability
 - JSON data structure ready for API integration
 - Professional code organization and structure
-
-## 📁 Project Structure
-
-```
-WhosGotItCheapest/
-├── src/
-│   ├── components/
-│   │   ├── layout/          # Navigation, Header, Footer
-│   │   └── pages/
-│   │       ├── homepage/    # Landing page components
-│   │       └── pricecheck/  # Price comparison functionality
-│   ├── public/
-│   │   └── api/            # Mock data (products.json)
-│   └── styles/             # CSS modules and styling
-├── README.md
-└── package.json
-```
 
 ## 🚀 Quick Start
 
@@ -52,6 +35,8 @@ npm run dev
 
 # Open browser to http://localhost:5173
 ```
+
+*flet app and springboot backend are planned sections*
 
 ## 🏆 Why This Matters
 
