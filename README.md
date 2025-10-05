@@ -49,3 +49,4 @@ npm run dev
 
 **Team:** me
 **Team Name:** Lyfestyle Corporation
+[Slides for Presentation](https://docs.google.com/presentation/d/1yZrUDPXSVuRUTjq2E8JVLtX1acfYH9ZonN2xo8DTwF8/edit?usp=sharing)
