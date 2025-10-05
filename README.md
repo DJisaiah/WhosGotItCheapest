@@ -19,13 +19,14 @@ Who's Got It Cheapest is a web platform that:
 - Professional code organization and structure
 
 ## 🚀 Quick Start
+**You must have [NodeJS](https://nodejs.org/en) installed**
 
 ```bash
 # Clone the repository
 git clone https://github.com/DJisaiah/WhosGotItCheapest.git
 
 # Navigate to project directory
-cd frontend
+cd WhosGotItCheapest/frontend
 
 # Install dependencies
 npm install
