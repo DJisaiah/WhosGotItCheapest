@@ -1,4 +1,4 @@
-# WhosGotItCheapest 🛒💰 [Hackathon MVP]
+# Who'sGot It Cheapest? [Hackathon MVP]
 
 **A Smart Price Comparison Platform with a Big Focus on South African Students**
 
