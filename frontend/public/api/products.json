@@ -1,0 +1,11 @@
+[
+    {
+        "productName": "Blue Ribbon White Bread",
+        "image": "https://cdn-prd-02.pnp.co.za/sys-master/images/he3/h9b/11566619230238/silo-product-image-v2-31Jan2025-180041-6009629180005-Straight_on-288312-1351_515Wx515H",
+        "prices": [
+            {"store": "Pick 'n Pay", "price": "18.99", "link": "https://www.google.com"},
+            {"store": "Checkers", "price": "17.99", "link": "https://www.google.com"},
+            {"store": "Shoprite", "price": "16.99", "link": "https://www.google.com"}
+        ]
+    }
+]
